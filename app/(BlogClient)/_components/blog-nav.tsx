@@ -9,7 +9,9 @@ export default function BlogNav() {
     <header className="mx-auto max-w-5xl px-6">
       <div className="flex justify-between items-center h-16 w-full">
         <Link href="/">
-          <div className={`${logoFont.className} text-violet-300 text-3xl`}>
+          <div
+            className={`${logoFont.className} text-violet-300 text-3xl select-none`}
+          >
             Bibo
           </div>
         </Link>

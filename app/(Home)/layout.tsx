@@ -1,7 +1,7 @@
 import Nav from "@/app/(Home)/_components/nav";
+import "@/app/globals.css";
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
-import "@/app/globals.css";
 
 const font = Open_Sans({ subsets: ["latin"] });
 

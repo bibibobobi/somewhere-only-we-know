@@ -21,7 +21,7 @@ export default function Nav() {
   return (
     <header className={headerClass}>
       <Link href="/">
-        <div className={`${logoFont.className} text-violet-300 text-3xl`}>
+        <div className={`${logoFont.className} text-violet-300 text-3xl select-none`}>
           Bibo
         </div>
       </Link>
