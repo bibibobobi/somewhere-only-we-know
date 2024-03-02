@@ -1,14 +1,20 @@
+import { Black_Ops_One } from "next/font/google";
 import Link from "next/link";
+import ThemeSwitch from "./theme-switch";
+
+const logoFont = Black_Ops_One({ subsets: ["latin"], weight: ["400"] });
 
 export default function BlogNav() {
   return (
-    <div className="mx-auto max-w-5xl px-6">
+    <header className="mx-auto max-w-5xl px-6">
       <div className="flex justify-between items-center h-16 w-full">
         <Link href="/">
-          <div>Bibo</div>
+          <div className={`${logoFont.className} text-violet-300 text-3xl`}>
+            Bibo
+          </div>
         </Link>
-        <div>theme</div>
+        <ThemeSwitch />
       </div>
-    </div>
+    </header>
   );
 }
