@@ -24,7 +24,7 @@ export default function NeonTitle() {
       {!loading && (
         <div className="absolute inset-0 flex items-center justify-center px-4 md:px-8 text-center">
           <h1
-            className={`${font.className} neonText text-5xl md:text-6xl select-none`}
+            className={`${font.className} neonText animate-pulsate text-5xl md:text-6xl select-none`}
           >
             Somewhere Only We Know
           </h1>
