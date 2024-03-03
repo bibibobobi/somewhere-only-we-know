@@ -15,9 +15,8 @@ export default function NeonTitle() {
       <Image
         src="/images/night.jpg"
         alt="Background image"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
+        fill={true}
+        style={{ objectFit: "cover" }}
         priority={true}
         onLoad={() => setLoading(false)}
         onError={() => setLoading(false)}
