@@ -18,10 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <>
-          <Nav />
-          {children}
-        </>
+        <Nav />
+        {children}
       </body>
     </html>
   );

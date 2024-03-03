@@ -11,17 +11,19 @@ const navLinks = [
   { name: "Blogs", href: "/blogs" },
 ];
 
-const headerClass = `
-    flex justify-between items-center sm:px-16 px-6 py-4 
-    max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0
-  `;
+// const headerClass = `
+//     flex justify-between items-center sm:px-16 px-6 py-4
+//     max-w-5xl mx-auto bg-transparent z-10
+//   `;
 
 export default function Nav() {
   const pathname = usePathname();
   return (
-    <header className={headerClass}>
+    <header className="flex justify-between items-center mx-auto max-w-5xl px-6 h-16 w-full">
       <Link href="/">
-        <div className={`${logoFont.className} text-violet-300 text-3xl select-none`}>
+        <div
+          className={`${logoFont.className} text-violet-300 text-3xl select-none`}
+        >
           Bibo
         </div>
       </Link>
@@ -34,7 +36,9 @@ export default function Nav() {
               href={link.href}
               key={link.name}
               className={`${
-                isActive ? "text-violet-300" : "text-slate-500"
+                isActive
+                  ? "text-violet-300 hover:text-violet-300"
+                  : "text-slate-500"
               } hover:text-slate-400`}
             >
               {link.name}
