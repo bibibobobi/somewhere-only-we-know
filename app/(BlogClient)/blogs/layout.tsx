@@ -21,7 +21,7 @@ export default function RootLayout({
       >
         <CustomThemeProvider>
           <BlogNav />
-          <main className="mx-auto max-w-5xl px-6">{children}</main>
+          {children}
         </CustomThemeProvider>
       </body>
     </html>

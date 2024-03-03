@@ -1,7 +1,12 @@
+import NeonTitle from "../_components/neon-title";
+
 export default function BlogsHomePage() {
   return (
     <div>
-      <h1>Somewhere Only We Know </h1>
+      <NeonTitle />
+      <main className="mx-auto max-w-5xl px-6">
+        <div>Blog content</div>
+      </main>
     </div>
   );
 }

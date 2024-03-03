@@ -3,10 +3,9 @@ export const SunIcon = () => {
     <svg
       width="24px"
       height="24px"
-      viewBox="0 0 32 32"
+      viewBox="0 0 24 24"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      fill="rgb(245 243 255)"
-      stroke="rgb(245 243 255)"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
@@ -18,61 +17,61 @@ export const SunIcon = () => {
 
       <g id="SVGRepo_iconCarrier">
         {" "}
-        <g id="icomoon-ignore"> </g>{" "}
+        <circle
+          cx="12"
+          cy="12"
+          r="5"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+        />{" "}
         <path
-          d="M16 8.010c-4.417 0-7.997 3.581-7.997 7.998 0 4.415 3.58 7.996 7.997 7.996s7.997-3.58 7.997-7.996c0-4.416-3.58-7.998-7.997-7.998zM16 22.938c-3.821 0-6.931-3.109-6.931-6.93 0-3.822 3.109-6.932 6.931-6.932s6.931 3.11 6.931 6.932c0 3.821-3.109 6.93-6.931 6.93z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M12 2V4"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M15.471 0.006h1.066v6.405h-1.066v-6.405z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M12 20V22"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M15.471 25.604h1.066v6.39h-1.066v-6.39z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M4 12L2 12"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M0.006 15.467h6.397v1.066h-6.397v-1.066z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M22 12L20 12"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M25.596 15.467h6.398v1.066h-6.398v-1.066z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M19.7778 4.22266L17.5558 6.25424"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M26.936 4.28l0.754 0.754-4.458 4.458-0.754-0.754 4.458-4.458z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M4.22217 4.22266L6.44418 6.25424"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M5.072 27.653l-0.754-0.754 4.458-4.458 0.754 0.754-4.458 4.458z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M6.44434 17.5557L4.22211 19.7779"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
         <path
-          d="M5.073 4.281l4.458 4.458-0.754 0.754-4.458-4.458 0.754-0.754z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
-        <path
-          d="M26.937 27.654l-4.458-4.458 0.754-0.754 4.458 4.458-0.754 0.754z"
-          fill="background-color: rgb(245 243 255)"
-        >
-          {" "}
-        </path>{" "}
+          d="M19.7778 19.7773L17.5558 17.5551"
+          stroke="rgb(245 243 255)"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />{" "}
       </g>
     </svg>
   );
