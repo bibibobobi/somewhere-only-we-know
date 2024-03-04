@@ -9,23 +9,26 @@ body,
 }
 
 .neonText {
+  animation: flicker 2.5s infinite alternate;
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 9px #fff, 0 0 23px #fff, 0 0 44px #f09,
-    0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
 }
 
-@keyframes pulsate {
+/* Flickering animation */
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
   100% {
-    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 38px #f09,
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f09,
       0 0 80px #f09, 0 0 90px #f09, 0 0 100px #f09, 0 0 150px #f09;
   }
 
-  0% {
-    text-shadow: 0 0 4px #fff, 0 0 9px #fff, 0 0 17px #fff, 0 0 36px #f09,
-      0 0 73px #f09, 0 0 80px #f09, 0 0 94px #f09, 0 0 140px #f09;
+  20%,
+  24%,
+  50% {
+    text-shadow: none;
   }
-}
-
-.animate-pulsate {
-  animation: pulsate 0.11s ease-in-out infinite alternate;
 }
