@@ -8,7 +8,7 @@ const logoFont = Black_Ops_One({ subsets: ["latin"], weight: ["400"] });
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Blogs", href: "/blogs" },
+  { name: "Blog", href: "/blog" },
 ];
 
 // const headerClass = `
