@@ -1,6 +1,6 @@
 import NeonTitle from "../_components/neon-title";
 
-export default function BlogsHomePage() {
+export default function BlogHomePage() {
   return (
     <div>
       <NeonTitle />

@@ -5,8 +5,9 @@ import { Open_Sans } from "next/font/google";
 const font = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Bibo｜Blogs",
-  description: "Somewhere Only We Know",
+  title: "Blog｜Some Where Only We Know",
+  description:
+    "Came from a background in media PR and worked as a part-time translator before making a pivot into engineering. 曾經是媒體公關，兼職翻譯，某天轉職成工程師。",
 };
 
 export default function RootLayout({
